@@ -5,6 +5,7 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{site.baseurl}}/js/require.js"></script>
 
+
 <script>
 
 //this was added to prevent duplicate loading of scripts
@@ -33,11 +34,20 @@ if (window.$) {
 require(["jquery", "jquery-easing", "bootstrap"], function(){
     if ($isloaded) $.fn.collapse = function(){};
 });
+
+
 </script>
 
+{% if page.layout != "home" %}
 
 <!-- Custom Theme JavaScript -->
 <script src="{{site.baseurl}}/js/grayscale.js"></script>
+
+{% endif %}
+
+<!-- Custom loader JavaScript -->
+<script src="{{site.baseurl}}/js/loader.js"></script>
+
 
 {% if site.google-tracking-id %}
   <script>

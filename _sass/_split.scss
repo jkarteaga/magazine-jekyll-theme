@@ -88,7 +88,8 @@
     font-weight: $title-font-weight;
     font-style: $title-font-style;
     font-size: $title-font-size;
-    margin: 40px 0 0.6em 0;
+    font-size:15vw;
+    margin: 40px 0 0 0;
     opacity: 1;
 }
 
@@ -314,6 +315,10 @@
 /*MEDIA QUERY FOR MEDIUM SCREENS*/
 
 @media (min-width: $medium-break-point) and (max-height: $medium-break-point) {
+
+    .codropsheader  h1{
+        font-size:5vw;
+    }
     .right-side,
     .left-side {
         min-height: $min-height-md;
@@ -332,6 +337,10 @@
 /*MEDIA QUERY FOR LARGE SCREENS*/
 
 @media (min-width: $large-break-point) {
+    .codropsheader  h1{
+        font-size:8vw;
+    }
+
     .right-side,
     .pull-right {
         float: right !important;
