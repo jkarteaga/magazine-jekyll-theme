@@ -429,7 +429,7 @@ a:hover {
 
 /*LEFT SIDE OPTIONS*/
 .left-side {
-  background-image: url("/img/bowtie.jpg");
+  background-image: url("../img/bowtie.jpg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-color: #888;
@@ -472,7 +472,7 @@ a:hover {
 .sub-item-top {
   /*background:#2fc0da;*/
   color: #222;
-  background-image: url("/img/fashion-man.jpg");
+  background-image: url("../img/fashion-man.jpg");
   background-position: center; }
   .sub-item-top .intro-background {
     background: #fff;
@@ -486,7 +486,7 @@ a:hover {
   top: 50%;
   /**background:#ffdfda;*/
   color: #f9f9f9;
-  background: url("/img/suit.jpg");
+  background: url("../img/suit.jpg");
   background-position: top; }
   .sub-item-bottom .intro-background {
     background: #000;
