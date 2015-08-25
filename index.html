@@ -5,11 +5,11 @@ layout: home
 {% assign post2 = site.posts[1] %}
 <style>
 .sub-item-top {
-    background-image: url('/img/{{ post1.image }}.{{ post1.image-extension }}');
+    background-image: url('{{site.baseurl}}/img/{{ post1.image }}.{{ post1.image-extension }}');
     background-position:{{ post1.image-position }};
 }
 .sub-item-bottom {
-    background-image: url('/img/{{ post2.image }}.{{ post2.image-extension }}');
+    background-image: url('{{site.baseurl}}/img/{{ post2.image }}.{{ post2.image-extension }}');
     background-position: {{ post2.image-position }};
 }
 </style>
@@ -42,7 +42,7 @@ layout: home
 </div>
 <div class="row">
     <div class="right-side col-md-6 col-xs-12 pull-right">
-        <a href="{{ post1.url }}">
+        <a href="{{site.baseurl}}{{ post1.url }}">
         <div class="home-sub-item sub-item-top col-xs-12 hover-zoom">
             <div class="intro-background"></div>
             <div class="intro-content">
@@ -56,7 +56,7 @@ layout: home
             </div>
         </div>
         </a>
-        <a href="{{ post2.url }}">
+        <a href="{{site.baseurl}}{{ post2.url }}">
         <div class="home-sub-item sub-item-bottom col-xs-12 hover-zoom">
             <div class="intro-background"></div>
             <div class="intro-content">

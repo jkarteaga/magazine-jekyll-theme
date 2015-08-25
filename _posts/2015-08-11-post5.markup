@@ -50,7 +50,7 @@ tags: [ 'tag1', 'tag2', tag3 ]
 
 <div class="full">
 
-<img src="/img/city.jpg"/>
+<img src="../../img/city.jpg"/>
 
 </div>
 

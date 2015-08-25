@@ -1,6 +1,7 @@
 # Site settings
 
 url: "http://scaperoth.com"
+baseurl: "/magazine-jekyll-theme"
 title: "SplitLayout"
 description: ""
 keywords: ""
@@ -23,7 +24,7 @@ pages_list:
 # Blog variables
 paginate: 6
 
-paginate_path: "blog/page:num"
+paginate_path: "/blog/page:num"
 
 post-preview-words: 128
 
@@ -34,7 +35,7 @@ reddit-share: True
 # Social networks variables (many more available: facebook, flickr, dribbble, pinterest, instagram, tumblr etc.)
 social:
   - title: "rss"
-    url: "/feed.xml"
+    url: "magazine-jekyll-theme/feed.xml"
   - title: "github"
     url: "https://github.com/scaperoth"
   - title: "linkedin"
