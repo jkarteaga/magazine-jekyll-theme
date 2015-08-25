@@ -15,8 +15,8 @@
 </description>
 				
 				<pubDate>Thu, 13 Aug 2015 00:00:00 -0700</pubDate>
-				<link>http://scaperoth.github.io/blog/post7</link>
-				<guid isPermaLink="true">http://scaperoth.github.io/blog/post7</guid>
+				<link>http://scaperoth.github.io/{{site.baseurl}}/blog/post7</link>
+				<guid isPermaLink="true">http://scaperoth.github.io/{{site.baseurl}}/blog/post7</guid>
 			</item>
 		
 			<item>
@@ -28,8 +28,8 @@
 </description>
 				
 				<pubDate>Wed, 12 Aug 2015 00:00:00 -0700</pubDate>
-				<link>http://scaperoth.github.io/blog/post6</link>
-				<guid isPermaLink="true">http://scaperoth.github.io/blog/post6</guid>
+				<link>http://scaperoth.github.io/{{site.baseurl}}/blog/post6</link>
+				<guid isPermaLink="true">http://scaperoth.github.io/{{site.baseurl}}/blog/post6</guid>
 			</item>
 		
 			<item>
@@ -41,8 +41,8 @@
 </description>
 				
 				<pubDate>Tue, 11 Aug 2015 00:00:00 -0700</pubDate>
-				<link>http://scaperoth.github.io/blog/post5</link>
-				<guid isPermaLink="true">http://scaperoth.github.io/blog/post5</guid>
+				<link>http://scaperoth.github.io/{{site.baseurl}}/blog/post5</link>
+				<guid isPermaLink="true">http://scaperoth.github.io/{{site.baseurl}}/blog/post5</guid>
 			</item>
 		
 			<item>
@@ -54,8 +54,8 @@
 </description>
 				
 				<pubDate>Sat, 11 Jul 2015 00:00:00 -0700</pubDate>
-				<link>http://scaperoth.github.io/blog/post1</link>
-				<guid isPermaLink="true">http://scaperoth.github.io/blog/post1</guid>
+				<link>http://scaperoth.github.io/{{site.baseurl}}/blog/post1</link>
+				<guid isPermaLink="true">http://scaperoth.github.io/{{site.baseurl}}/blog/post1</guid>
 			</item>
 		
 			<item>
@@ -67,8 +67,8 @@
 </description>
 				
 				<pubDate>Sun, 05 Jul 2015 00:00:00 -0700</pubDate>
-				<link>http://scaperoth.github.io/blog/post2</link>
-				<guid isPermaLink="true">http://scaperoth.github.io/blog/post2</guid>
+				<link>http://scaperoth.github.io/{{site.baseurl}}/blog/post2</link>
+				<guid isPermaLink="true">http://scaperoth.github.io/{{site.baseurl}}/blog/post2</guid>
 			</item>
 		
 			<item>
@@ -80,8 +80,8 @@
 </description>
 				
 				<pubDate>Wed, 01 Jul 2015 00:00:00 -0700</pubDate>
-				<link>http://scaperoth.github.io/blog/post3</link>
-				<guid isPermaLink="true">http://scaperoth.github.io/blog/post3</guid>
+				<link>http://scaperoth.github.io/{{site.baseurl}}/blog/post3</link>
+				<guid isPermaLink="true">http://scaperoth.github.io/{{site.baseurl}}/blog/post3</guid>
 			</item>
 		
 			<item>
@@ -93,8 +93,8 @@
 </description>
 				
 				<pubDate>Sat, 27 Jun 2015 00:00:00 -0700</pubDate>
-				<link>http://scaperoth.github.io/blog/post4</link>
-				<guid isPermaLink="true">http://scaperoth.github.io/blog/post4</guid>
+				<link>http://scaperoth.github.io/{{site.baseurl}}/blog/post4</link>
+				<guid isPermaLink="true">http://scaperoth.github.io/{{site.baseurl}}/blog/post4</guid>
 			</item>
 		
 	</channel>
