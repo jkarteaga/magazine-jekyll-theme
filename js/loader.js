@@ -1,10 +1,9 @@
 /**
  * loader support coutesy of https://ihatetomatoes.net/create-custom-preloading-screen/
  */
+// element
 
-$(document).ready(function() {
-	
-		console.log('loaded')
-		$('body').addClass('loaded');
-	
+$(window).load(function() {
+    console.log('loaded')
+    $('body').addClass('loaded');
 });

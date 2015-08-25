@@ -102,6 +102,7 @@
 
     /* Loaded */
     .loaded #loader-wrapper .loader-section.section-left {
+        visibility: hidden;
         opacity:0;
         /*-webkit-transform: translateX(-100%);   Chrome, Opera 15+, Safari 3.1+ 
             -ms-transform: translateX(-100%);  /* IE 9 
@@ -113,6 +114,7 @@
 
     .loaded #loader-wrapper .loader-section.section-right {
 
+        visibility: hidden;
         opacity:0;
         /* -webkit-transform: translateX(-200%);  Chrome, Opera 15+, Safari 3.1+ 
             -ms-transform: translateX(-200%);  /* IE 9 
@@ -123,18 +125,20 @@
     }
     
     .loaded #loader {
+        visibility: hidden;
         opacity: 0;
-        -webkit-transition: all 0.3s ease-out;  
-                transition: all 0.3s ease-out;
+        -webkit-transition: all 0.1s ease-out;  
+                transition: all 0.1s ease-out;
     }
     .loaded #loader-wrapper {
         visibility: hidden;
+        opacity: 0;
         /*-webkit-transform: translateY(-100%);   Chrome, Opera 15+, Safari 3.1+ 
             -ms-transform: translateY(-100%);  /* IE 9
                 transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
 
-        -webkit-transition: all 0.3s 1s ease-out;  
-                transition: all 0.3s 1s ease-out;
+        -webkit-transition: all 0.2s 1s ease-out;  
+                transition: all 0.2s 1s ease-out;
     }
     
     /* JavaScript Turned Off */
