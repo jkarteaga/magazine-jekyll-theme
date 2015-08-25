@@ -1,4 +1,4 @@
 [submodule "_site"]
 	path = _site
-	url = git@github.com:scaperoth/magazine-jekyll-theme.git
+	url = https://github.com/scaperoth/magazine-jekyll-theme.git
 	branch = gh-pages
