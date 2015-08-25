@@ -1,25 +1,7 @@
-/* 
- * variables.scss
- * @author Mat Scaperoth: scaperoth.com
- * global variables for scss files
- */
+/*courtesy of https://ihatetomatoes.net/create-custom-preloading-screen/*/
 @import url(http://fonts.googleapis.com/css?family=Fjord+One);
 @import url(http://fonts.googleapis.com/css?family=Sumana);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
-/*FONTS*/
-/*BREAK POINTS*/
-/*HEIGHTS*/
-/*COLOR OPTIONS*/
-/*home header*/
-/*left*/
-/*right*/
-/*BORDER RADIUS*/
-/*OPACITY*/
-/*IMAGE OPTIONS*/
-/*BACKGROUND SIZES*/
-/*CSS TRANSITION TIMES*/
-/*MIXINS*/
-/*courtesy of https://ihatetomatoes.net/create-custom-preloading-screen/*/
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -165,6 +147,24 @@
   display: none; }
 
 /* 
+ * variables.scss
+ * @author Mat Scaperoth: scaperoth.com
+ * global variables for scss files
+ */
+/*FONTS*/
+/*BREAK POINTS*/
+/*HEIGHTS*/
+/*COLOR OPTIONS*/
+/*home header*/
+/*left*/
+/*right*/
+/*BORDER RADIUS*/
+/*OPACITY*/
+/*IMAGE OPTIONS*/
+/*BACKGROUND SIZES*/
+/*CSS TRANSITION TIMES*/
+/*MIXINS*/
+/* 
  * base.scss
  * @author Mat Scaperoth: scaperoth.com
  * controls scss for all pages other than home page
@@ -267,7 +267,8 @@ a:hover {
 
 /*GENERIC CONTENT SECTIONT*/
 .content-section {
-  text-align: left; }
+  text-align: left;
+  padding-top: 0; }
   .content-section #post-meta {
     text-align: center; }
 
@@ -352,7 +353,21 @@ a:hover {
 /*BLOG PAGE*/
 #blog-posts img {
   z-index: 0; }
-#blog-posts .post-container, #blog-posts .no-image {
+
+/*ARCHIVES*/
+#archives .post-container .post-overlay {
+  visibility: hidden; }
+#archives .post-container:hover .post-overlay {
+  visibility: visible; }
+#archives .post-row {
+  padding: 10px 0;
+  border-bottom: 1px dotted #999;
+  padding: 20px 0 15px 0; }
+#archives .no-image {
+  height: auto; }
+
+/*BLOG AND ARCHIVES*/
+.post-container, .no-image {
   overflow: hidden;
   background-image: none;
   background-size: cover;
@@ -360,7 +375,7 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   /* optionally, center the image */ }
-  #blog-posts .post-container .post-overlay, #blog-posts .no-image .post-overlay {
+  .post-container .post-overlay, .no-image .post-overlay {
     background-color: #000;
     position: absolute;
     top: 0;
@@ -368,16 +383,17 @@ a:hover {
     height: 100%;
     width: 100%;
     opacity: .2; }
-  #blog-posts .post-container .post-information, #blog-posts .no-image .post-information {
+  .post-container .post-information, .no-image .post-information {
     color: #f9f9f9;
     padding: 10px 20px;
     border-top: 2px solid #777;
     z-index: 999;
     position: absolute;
     bottom: 25%; }
-    #blog-posts .post-container .post-information a, #blog-posts .post-container .post-information small, #blog-posts .no-image .post-information a, #blog-posts .no-image .post-information small {
+    .post-container .post-information a, .post-container .post-information small, .no-image .post-information a, .no-image .post-information small {
       color: #fff; }
-#blog-posts .no-image .post-overlay {
+
+.no-image .post-overlay {
   opacity: .5; }
 
 /*FOOTER*/
@@ -488,7 +504,7 @@ a:hover {
   width: 150%;
   top: 0;
   left: -50px;
-  opacity: .8; }
+  opacity: .9; }
 
 /**
  * HEADER
@@ -499,7 +515,7 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   padding: 0 0;
-  opacity: 0.6;
+  opacity: 0.7;
   visibility: visible;
   -webkit-transition: opacity 0.3s;
   transition: opacity 0.2s;
