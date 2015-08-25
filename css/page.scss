@@ -46,8 +46,9 @@ $white: #f9f9f9;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-	"variables",
+
 	"loader",
+	"variables",
     "original",
     "layout",
     "syntax-highlighting",

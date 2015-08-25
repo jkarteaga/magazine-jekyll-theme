@@ -5,12 +5,13 @@
         <div class="col-lg-8 col-lg-offset-2">
             <h1><strong>{{ page.title }}</strong></h1>
             {{ page.content | markdownify }}
-            <img class="img-responsive center-block" src="{{baseurl}}{{ site.404-img }}" alt="">
-            {% include social-buttons.html %}
+            <img class="img-responsive center-block" src="{{site.baseurl}}{{ site.404-img }}" alt="">
+            
         </div>
     </div>
 </section>
 
+{% include social-buttons.html %}
 {% include footer.html %}
 {% include js.html %}
 
