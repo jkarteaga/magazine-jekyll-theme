@@ -541,6 +541,9 @@ a:hover {
   width: 100%;
   padding: 0;
   margin: 0; }
+  .right-side .category,
+  .left-side .category {
+    font-size: 15vw; }
 
 .home-sub-item {
   left: 0;
